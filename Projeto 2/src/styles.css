@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito Sans', Arial, sans-serif;
+  background-color: #1f1f1f;
+  color: #ffffff;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.app {
+  min-height: 100vh;
+  position: relative;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.app::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url('./assets/background-variation.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.app--light::before {
+  opacity: 1;
+}
+
+.search-panel {
+  position: relative;
+  z-index: 1;
+  width: 1156px;
+  min-height: 537px;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-header {
+  width: 395px;
+  height: 82px;
+  margin-top: 48px;
+  margin-left: 389.5px;
+  align-self: flex-start;
+  display: grid;
+  grid-template-columns: 62px 11px 147px 15px 160px;
+  align-items: center;
+}
+
+.github-logo {
+  width: 62px;
+  height: 62px;
+  display: block;
+}
+
+.page-title {
+  display: contents;
+  font-size: 60px;
+  line-height: 58px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.page-title span {
+  grid-column: 3;
+  width: 147px;
+  display: block;
+}
+
+.github-word {
+  grid-column: 5;
+  width: 160px;
+  height: 46px;
+  object-fit: contain;
+  display: block;
+}
+
+.search-form {
+  width: 503px;
+  height: 62px;
+  margin-top: 18px;
+  display: flex;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.search-input {
+  flex: 1;
+  border: 0;
+  padding: 0 17px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: #000;
+  opacity: 1;
+}
+
+.search-button {
+  width: 62px;
+  height: 62px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #005cff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.search-result {
+  margin-top: 31px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.error-message {
+  width: 710px;
+  min-height: 88px;
+  padding: 16px 24px;
+  border-radius: 10px;
+  background-color: #d9d9d9;
+  color: #ff0000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.35;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  width: 804px;
+  height: 257px;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  background-color: #d9d9d9;
+  display: flex;
+  align-items: center;
+  padding: 18px 40px 18px 47px;
+}
+
+.user-avatar {
+  width: 220px;
+  height: 220px;
+  outline: 3px solid #005cff;
+  outline-offset: 0;
+  border-radius: 50%;
+  object-fit: cover;
+  flex: 0 0 220px;
+}
+.user-info > div {
+  margin-left: 8px;
+  margin-top: 50px;
+  max-width: 488px;
+  align-self: flex-start;
+}
+.user-info h2 {
+  margin-bottom: 16px;
+  color: #005cff;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.user-info p {
+  color: #1f1f1f;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.35;
+}
+.loading-message {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.theme-toggle {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  z-index: 2;
+  width: 82px;
+  height: 41px;
+  border: 0;
+  background: transparent;
+  padding: 0;
+  line-height: 0;
+}
+
+.theme-toggle__track {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  border-radius: 16.1px;
+  background: #24272c;
+  display: block;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.28);
+  transition: background-color 0.28s ease;
+}
+
+.theme-toggle__thumb {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background: #e9eaf0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transform: translateX(41px);
+  transition: transform 0.28s ease, background-color 0.28s ease;
+}
+
+.theme-toggle__icon {
+  width: 19px;
+  height: 19px;
+  object-fit: contain;
+  display: block;
+}
+
+.theme-toggle--light .theme-toggle__track {
+  background: #e9eaf0;
+}
+
+.theme-toggle--light .theme-toggle__thumb {
+  background: #24272c;
+  transform: translateX(0);
+}

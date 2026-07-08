@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;800;900&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="top-bar">
+            <p>Ganhe <span class="top-bar--highlight">R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span class="top-bar--coupon">DESCONTO10</span></p>
+        </div>
+        
+        <div class="header-main">
+            <a href="#" class="logo" aria-label="Avanti">
+                <img src="./assets/images/avanti-vector.png" alt="AVANTI">
+            </a>
+
+            <div class="search-area"><div class="search">
+                <input id="search-input" type="text" placeholder="Digite aqui o que você procura">
+                <button id="search-button" type="button" aria-label="Buscar">
+                    <img src="./assets/images/search-icon.png" alt="">
+                </button>
+            </div><p id="search-result" class="search-result"></p></div>
+
+            <div class="header-actions">
+                <div class="client-greeting">
+                    <img src="./assets/images/user-icon.png" alt="">
+                    <span>Olá,<br>Nome cliente!</span>
+                </div>
+
+                <button class="cart-button" type="button" aria-label="Carrinho">
+                    <img class="cart-button--icon" src="./assets/images/shopping-cart.png" alt="">
+                    <img class="cart-button--notification" src="./assets/images/shopping-car-notification.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <nav class="header-menu">
+            <button type="button">
+                <img class="header-menu--icon" src="./assets/images/categories-icon.png" alt="">
+                <span>Todas as Categorias</span>
+            </button>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-track">
+                <div class="hero-slide">
+                    <div class="hero-image">
+                        <img src="./assets/images/roupas-empilhadas.png" alt="Cadeira com roupas empilhadas">
+                    </div>
+
+                    <div class="hero-text">
+                        <h1>
+                            <strong>SUPER</strong><span>SALE</span>
+                        </h1>
+                        <p>ITENS SELECIONADOS COM AT&Eacute;</p>
+                        <span>50%OFF</span>
+                    </div>
+                </div>
+
+                <div class="hero-slide">
+                    <div class="hero-image">
+                        <img src="./assets/images/roupas-empilhadas.png" alt="Cadeira com roupas empilhadas">
+                    </div>
+
+                    <div class="hero-text">
+                        <h1>
+                            <strong>SUPER</strong><span>SALE</span>
+                        </h1>
+                        <p>ITENS SELECIONADOS COM AT&Eacute;</p>
+                        <span>50%OFF</span>
+                    </div>
+                </div>
+
+                <div class="hero-slide">
+                    <div class="hero-image">
+                        <img src="./assets/images/roupas-empilhadas.png" alt="Cadeira com roupas empilhadas">
+                    </div>
+
+                    <div class="hero-text">
+                        <h1>
+                            <strong>SUPER</strong><span>SALE</span>
+                        </h1>
+                        <p>ITENS SELECIONADOS COM AT&Eacute;</p>
+                        <span>50%OFF</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-dots" aria-hidden="true">
+                <span class="hero-dots--active"></span>
+                <span></span>
+                <span></span>
+            </div>
+        </section>
+        <section class="products products--first">
+
+            <div class="container">
+                <div class="section-header">
+                    <h2>Lançamentos</h2>
+                    <a href="#">Ver mais</a>
+                </div>
+
+                <div class="products-carousel">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <button class="swiper-button-prev" type="button"></button>
+                    <button class="swiper-button-next" type="button"></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-banner info-banner--first">
+            <div class="container info-banner--content">
+                <div class="info-banner--image">
+                    <img src="./assets/images/mug.png" alt="Caneca preta">
+                </div>
+
+                <div class="info-banner--text">
+                    <h2>LOREM IPSUM</h2>
+
+                    <div class="info-banner--copy info-banner--copy-desktop">
+                        <p>
+                            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+                        </p>
+
+                        <p>
+                            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+                        </p>
+                    </div>
+
+                    <div class="info-banner--copy info-banner--copy-mobile">
+                        <p>
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+
+                        <p>
+                            Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits">
+               <div class="container benefits--content">
+                    <div class="benefits--body">
+                        <div class="benefits--info">
+                            <h2>LOREM IPSUM</h2>
+
+                            <div class="benefits--list">
+                                <div class="benefits--item">
+                                    <img src="./assets/images/Circulo e Icone.png" alt="">
+                                    <p>
+                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                                        pretium quis, sem.
+                                    </p>
+                                </div>
+
+                                <div class="benefits--item">
+                                    <img src="./assets/images/Circulo e Icone.png" alt="">
+                                    <p>
+                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                                        pretium quis, sem.
+                                    </p>
+                                </div>
+
+                                <div class="benefits--item">
+                                    <img src="./assets/images/Circulo e Icone.png" alt="">
+                                    <p>
+                                        Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+                                        pretium quis, sem.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="benefits--image">
+                            <img src="./assets/images/mug2.png" alt="Caneca Avanti">
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="info-banner info-banner--second">
+            <div class="container info-banner--content">
+                <div class="info-banner--image">
+                    <img src="./assets/images/mug.png" alt="Caneca preta">
+                </div>
+
+                <div class="info-banner--text">
+                    <h2>LOREM IPSUM</h2>
+
+                    <div class="info-banner--copy info-banner--copy-desktop">
+                        <p>
+                            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+                        </p>
+
+                        <p>
+                            Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia. Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a libero commodo egestas efficitur id augue.
+                        </p>
+                    </div>
+
+                    <div class="info-banner--copy info-banner--copy-mobile">
+                        <p>
+                            Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </p>
+
+                        <p>
+                            Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products products--second">
+
+            <div class="container">
+                <div class="section-header">
+                    <h2>Lançamentos</h2>
+                    <a href="#">Ver mais</a>
+                </div>
+
+                <div class="products-carousel">
+                    <div class="swiper products-swiper">
+                        <div class="swiper-wrapper">
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+
+                    <article class="swiper-slide product-card">
+                        <span class="product-badge">Novo</span>
+
+                        <img src="./assets/images/camiseta-branca.png" alt="Roupa 1">
+
+                        <div class="product-info">
+                            <h3 class="product-description">&lt;h3&gt; Lorem Ipsum Dolor Sit Amet Consectetuer Adipiscing Elit &lt;/h3&gt;</h3>
+
+                            <div class="product-price-row">
+                                <div class="product-price">
+                                    <span class="product-price--old">R$100,00</span>
+                                    <span class="product-price--new">R$79,90</span>
+                                </div>
+
+                                <a class="discount" href="https://www.nike.com.br/air-max-1-86-027221.html?cor=51">10% OFF</a>
+                            </div>
+
+                            <p class="product-installment">Ou em até <span>10x de R$7,90</span></p>
+
+                            <button type="button">Comprar</button>
+                        </div>
+                    </article>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+                    </div>
+
+                    <button class="swiper-button-prev" type="button"></button>
+                    <button class="swiper-button-next" type="button"></button>
+                </div>
+            </div>
+        </section>
+        <section class="contact-banner">
+            <div class="contact-banner--message">
+                <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+            </div>
+        </section>
+        <section class="newsletter">
+            <div class="container newsletter--container">
+                <h2>Cadastre-se na nossa <a href="#">newsletter</a></h2>
+
+                <form class="newsletter--form">
+                    <input type="text" placeholder="Digite seu nome">
+                    <input type="email" placeholder="Digite seu e-mail">
+
+                    <label class="newsletter--privacy">
+                        <input type="checkbox">
+                        <span>Estou de acordo com a <a href="#">Política de Privacidade</a></span>
+                    </label>
+
+                    <button type="button">Cadastrar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer--container">
+            <div class="footer--brand">
+                <a href="#" class="footer--logo" aria-label="Avanti">
+                    <img src="./assets/images/avanti-vector.png" alt="AVANTI">
+                </a>
+
+                <div class="footer--socials">
+                    <a href="#" aria-label="Instagram"><img src="./assets/images/instagram.png" alt=""></a>
+                    <a href="#" aria-label="Facebook"><img src="./assets/images/facebook.png" alt=""></a>
+                    <a href="#" aria-label="YouTube"><img src="./assets/images/youtube-logo.png" alt=""></a>
+                    <a href="#" aria-label="TikTok"><img src="./assets/images/titktok.png" alt=""></a>
+                </div>
+            </div>
+
+            <nav class="footer--nav" aria-label="Links do rodapé">
+                <div class="footer--column">
+                    <h5 role="button" tabindex="0" aria-expanded="false"><span class="footer--tag">&lt;h5&gt;</span> Institucional</h5>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Sobre Nós</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Nossas Lojas</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Privacidade e Segurança</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Termos e Condições</a>
+                </div>
+
+                <div class="footer--column">
+                    <h5 role="button" tabindex="0" aria-expanded="false"><span class="footer--tag">&lt;h5&gt;</span> Central de ajuda</h5>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Fale Conosco</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Frete e Entrega</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Trocas e Devoluções</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> Formas de Pagamento</a>
+                    <a href="#"><span class="footer--tag">&lt;h5&gt;</span> FAQ</a>
+                </div>
+
+                <div class="footer--column footer--column--service">
+                    <h5 role="button" tabindex="0" aria-expanded="false"><span class="footer--tag">&lt;h5&gt;</span> Atendimento</h5>
+                    <a href="#" class="footer--service-line"><span class="footer--tag">&lt;h5&gt;</span> <span class="footer--label">Telefone:</span> (00) 1234-5678</a>
+                    <a href="#" class="footer--service-line"><span class="footer--tag">&lt;h5&gt;</span> <span class="footer--label">E-mail:</span> exemplo@exemplo.com.br</a>
+                    <div>
+                        <strong class="footer--hours-title"><span class="footer--tag">&lt;h5&gt;</span> Horário de atendimento:</strong>
+                        <p>Segunda a Sábado: 07h00 às 23h00</p>
+                        <p>Domingos e Feriados: 07h00 às 21h00</p>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="footer--payments" aria-label="Formas de pagamento">
+            <img class="footer--payment-amex" src="./assets/images/amex.png" alt="AMEX">
+            <img src="./assets/images/mastercard.png" alt="Mastercard">
+            <img src="./assets/images/visa.png" alt="Visa">
+            <img src="./assets/images/hipercard.png" alt="Hipercard">
+            <img src="./assets/images/elo.png" alt="Elo">
+            <img src="./assets/images/card.png" alt="Cartão">
+            <img src="./assets/images/paypal-seeklogo.com.png" alt="PayPal">
+            <img src="./assets/images/pix.png" alt="Pix">
+            <img src="./assets/images/icon-boleto.png" alt="Boleto">
+        </div>
+    </footer>
+    <section class="legal-footer">
+        <div class="legal-footer--container">
+            <p class="legal-footer--text legal-footer--text-desktop">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+
+            <p class="legal-footer--text legal-footer--text-mobile">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.</p>
+
+            <img src="./assets/images/Final-frame.png" alt="Certificações e parceiros">
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
