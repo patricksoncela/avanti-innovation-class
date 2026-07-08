@@ -1,4 +1,4 @@
-# Innovation Class - Testes Técnicos
+# Innovation Class
 
 Repositório para os dois projetos desenvolvidos para o processo seletivo Innovation Class
 
